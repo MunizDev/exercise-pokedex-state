@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,6 +20,20 @@ body {
 
 .pokedex {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 10px;
+}
+
+.button-next {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  margin: 20px;
+}
+
+.button-type {
+  width: 80px;
+  height: 50px;
+  background-color: green;
 }
